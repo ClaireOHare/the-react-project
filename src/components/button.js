@@ -25,4 +25,4 @@ export const SecondaryButton = styled(Button) `
 export const TertiaryButton = styled(Button) `
     background-color: ${TertiaryColour}
 `
-export default 
+export default PrimaryButton
