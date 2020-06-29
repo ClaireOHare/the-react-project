@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import {defaultTheme, typeScale} from "../utils"
 
 const PrimaryColour = '#E08524'
 const SecondaryColour = '#B06617'
@@ -6,13 +7,13 @@ const TertiaryColour = '#F2830C'
 
 const Button = styled.button `
     padding: 12px 24px;
-    fontsize: 1rem;
+    fontsize: ${typeScale.paragraph};
     border-radius: 2px;
     min-width: 100px;
     cursor: pointer;
     font-family: 'Roberto Mono', monospace;
     border: none;
-    color: white;
+    color: ${defaultTheme.primaryColor};
 `
 
 const PrimaryButton = styled(Button) `
