@@ -1,8 +1,8 @@
-import {CreateGlobalStyle, createGlobalStyle} from "styled-components"
+import {createGlobalStyle} from "styled-components"
 import {primaryFont} from "./typography.js"
-import {normalised} from "polished"
+import {normalize} from "polished"
 
-export const myGlobalStyle = createGlobalStyle`
+export const GlobalStyle = createGlobalStyle `
   ${normalize()}
   html {
       font-size: 16px;
@@ -17,6 +17,8 @@ export const myGlobalStyle = createGlobalStyle`
   body {
       margin: 0;
       font-famils: ${primaryFont};
+      padding: 150px;
+
   }
 
   main {

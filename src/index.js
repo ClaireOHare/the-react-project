@@ -6,6 +6,7 @@ import PrimaryButton,
     TertiaryButton
 } from './components/button'
 
+import {GlobalStyle} from "./utils"
 
 const App = () =>
 (
@@ -13,6 +14,7 @@ const App = () =>
         <PrimaryButton>Hello one</PrimaryButton>
         <SecondaryButton>Hello two</SecondaryButton>
         <TertiaryButton>Hello three</TertiaryButton>
+        <GlobalStyle />
     </div>
 )
 

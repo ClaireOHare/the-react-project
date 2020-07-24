@@ -13,7 +13,12 @@ const Button = styled.button `
     cursor: pointer;
     font-family: 'Roberto Mono', monospace;
     border: none;
-    color: ${defaultTheme.primaryColor};
+    transition: background-color 0.2s linear, color 0.2s linear;
+
+    &:hover {
+        background-color: ${defaultTheme.primaryHoverColor};
+        color: ${defaultTheme.textColorOnPrimary};
+      }
 `
 
 const PrimaryButton = styled(Button) `
