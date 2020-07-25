@@ -39,7 +39,7 @@ const Button = styled.button`
   }
 `;
 
-const PrimaryButton = styled(Button)`
+export const PrimaryButton = styled(Button)`
   background-color: ${PrimaryColour};
 `;
 export const SecondaryButton = styled(Button)`
