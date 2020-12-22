@@ -1,3 +1,6 @@
+This project was created doing the Front End Masters Course -> Design Systems with React and Storybook
+https://frontendmasters.com/courses/design-systems/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
